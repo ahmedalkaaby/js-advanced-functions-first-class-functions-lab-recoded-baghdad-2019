@@ -3,7 +3,7 @@ const returnFirstTwoDrivers = function (arr){
   return [arr[0], arr[1]];
 }
 const returnLastTwoDrivers = function (arr){
-  return [arr[arr.length-1],arr[arr.length-2]];
+  return [arr[arr.length-2],arr[arr.length-1]];
 }
 
 let selectingDrivers = [returnFirstTwoDrivers,returnLastTwoDrivers];
@@ -20,3 +20,5 @@ const fareTripler = createFareMultiplier(3);
 selectDifferentDrivers=function(arr,select){
   return select(arr);
 }
+
+
